@@ -1,0 +1,115 @@
+/* src/pages/Menu.css */
+.menu {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    font-style: italic;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+  }
+  
+  .menu-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .add-to-cart {
+    background-color: #c67d7d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #b05a5a;
+  }/* src/pages/Menu.css */
+.menu {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.add-to-cart {
+    background-color: #c67d7d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #b05a5a;
+}
+
+/* New styles for Veg/Non-Veg tags */
+.item-type {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;}

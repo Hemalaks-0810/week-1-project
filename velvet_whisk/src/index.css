@@ -1,0 +1,56 @@
+body {
+  background-color: bisque;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* src/index.css or src/components/Navbar.css */
+.navbar {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between links and cart */
+  align-items: center; /* Center items vertically */
+  background-color: #c67d7d; /* Background color for the navbar */
+  padding: 10px 20px; /* Padding for the navbar */
+}
+
+.nav-links {
+  display: flex; /* Use flexbox for nav links */
+  list-style: none; /* Remove default list styling */
+  gap: 20px; /* Space between links */
+}
+
+.cart-container {
+  display: flex; /* Use flexbox for cart and toggle button */
+  align-items: center; /* Center items vertically */
+}
+
+.cart-icon {
+  width: 30px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-left: 10px; /* Add space between links and cart icon */
+}
+
+.cart-icon:hover {
+  opacity: 0.8; /* Optional: Add hover effect */
+}
+
+.toggle-button {
+  margin-left: 10px; /* Space between cart icon and toggle button */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.toggle-button {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-button button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
